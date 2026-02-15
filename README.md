@@ -6,4 +6,6 @@ venv\Scripts\activate         # активировать (Windows)
 pip install tabulate          # установить библиотеку
 python main.py --files economic1.csv economic2.csv --report average-gdp         # запустить скрипт
 ```
+![Скриншот приложения](screenshot.png)
 # Добавление нового отчета
+
