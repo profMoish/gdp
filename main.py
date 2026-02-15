@@ -96,9 +96,10 @@ def main():
 
     if args.report == "average-gdp":
         report = build_average_gdp_report(rows)
-        print_report(report)
     else:
         print(f"Отчет {args.report} не поддерживается.")
+        return
+    print_report(report)
 
 
 if __name__ == "__main__":
